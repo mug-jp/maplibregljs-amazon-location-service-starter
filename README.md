@@ -1,19 +1,33 @@
-# maplibregljs-starter
+# maplibregljs-amazon-location-service-starter
 
 ![README02](img/README02.png)
 
-Start MapLibre GL JS easily.  
+Start MapLibre GL JS and Amazon Location Service easily.  
 - [MapLibre GL JS v3.3.1](https://maplibre.org)  
-- [TypeScript v5.2.2](https://www.typescriptlang.org)  
-- [Vite v4.4.9](https://vitejs.dev)  
-- node v18.1.0
-- npm v8.19.2
+- [Amazon Location Service](https://aws.amazon.com/location)  
+- node v20.6.1
+- npm v9.8.1
 
 <br>
 
 ## Usage
 
 ![README03](img/README03.png)
+
+<br>
+
+Create Amazon Location Service "map" and "API key"
+
+[API key creation (map)](https://memo.dayjournal.dev/memo/amazon-location-service-004)
+
+<br>
+
+Set "region", "API key" and "map name" in env file
+```env
+VITE_REGION = xxxxx
+VITE_MAP_API_KEY = v1.public.xxxxx
+VITE_MAP_NAME = xxxxx
+```
 
 <br>
 
@@ -60,22 +74,36 @@ Copyright (c) 2023 MapLibre User Group Japan
 
 <br>
 
-# MapLibreGLJS スターター
+# MapLibreGLJS & Amazon Location Service スターター
 
 ![README02](img/README02.png)
 
-MapLibre GL JSを手軽に始める
+MapLibre GL JSとAmazon Location Serviceを手軽に始める
 - [MapLibre GL JS v3.3.1](https://maplibre.org)  
-- [TypeScript v5.2.2](https://www.typescriptlang.org)  
-- [Vite v4.4.9](https://vitejs.dev)  
-- node v18.1.0
-- npm v8.19.2
+- [Amazon Location Service](https://aws.amazon.com/location)  
+- node v20.6.1
+- npm v9.8.1
 
 <br>
 
 ##  使用方法
 
 ![README03](img/README03.png)
+
+<br>
+
+Amazon Location Serviceのマップ・APIキーを作成
+
+[APIキー作成(マップ)](https://memo.dayjournal.dev/memo/amazon-location-service-004)
+
+<br>
+
+リージョン・APIキー・マップ名をenvファイルに設定
+```env
+VITE_REGION = xxxxx
+VITE_MAP_API_KEY = v1.public.xxxxx
+VITE_MAP_NAME = xxxxx
+```
 
 <br>
 

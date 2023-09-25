@@ -2,29 +2,13 @@ import './style.css'
 import 'maplibre-gl/dist/maplibre-gl.css';
 import maplibregl from 'maplibre-gl';
 
+const region = import.meta.env.VITE_REGION;
+const mapApiKey = import.meta.env.VITE_MAP_API_KEY;
+const mapName = import.meta.env.VITE_MAP_NAME;
+
 const map = new maplibregl.Map({
     container: 'map',
-    style: {
-        version: 8,
-        sources: {
-            MIERUNEMAP: {
-                type: 'raster',
-                tiles: ['https://tile.mierune.co.jp/mierune_mono/{z}/{x}/{y}.png'],
-                tileSize: 256,
-                attribution:
-                    "Maptiles by <a href='http://mierune.co.jp/' target='_blank'>MIERUNE</a>, under CC BY. Data by <a href='http://osm.org/copyright' target='_blank'>OpenStreetMap</a> contributors, under ODbL.",
-            },
-        },
-        layers: [
-            {
-                id: 'MIERUNEMAP',
-                type: 'raster',
-                source: 'MIERUNEMAP',
-                minzoom: 0,
-                maxzoom: 18,
-            },
-        ],
-    },
+    style: `https://maps.geo.${region}.amazonaws.com/maps/v0/maps/${mapName}/style-descriptor?key=${mapApiKey}`,
     center: [139.767, 35.681],
     zoom: 11,
 });
