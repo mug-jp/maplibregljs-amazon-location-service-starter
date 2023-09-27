@@ -10,6 +10,12 @@ Start MapLibre GL JS and Amazon Location Service easily.
 
 <br>
 
+## blog
+
+[Building a Map Application with MapLibre GL JS and Amazon Location Service API key functionality](https://dev.to/aws-heroes/building-a-map-application-with-maplibre-gl-js-and-amazon-location-service-api-key-functionality-29db)
+
+<br>
+
 ## Usage
 
 ![README03](img/README03.png)
@@ -83,6 +89,12 @@ MapLibre GL JSとAmazon Location Serviceを手軽に始める
 - [Amazon Location Service](https://aws.amazon.com/location)  
 - node v20.6.1
 - npm v9.8.1
+
+<br>
+
+## blog
+
+[MapLibre GL JSとAmazon Location ServiceのAPIキー機能で開発環境を構築してみた](https://www.memo.dayjournal.dev/memo/try-103)
 
 <br>
 
