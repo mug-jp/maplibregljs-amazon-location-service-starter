@@ -3,10 +3,10 @@
 ![README02](img/README02.png)
 
 Start MapLibre GL JS and Amazon Location Service easily.  
-- [MapLibre GL JS v3.3.1](https://maplibre.org)  
+- [MapLibre GL JS v4.0.2](https://maplibre.org)  
 - [Amazon Location Service](https://aws.amazon.com/location)  
-- node v20.6.1
-- npm v9.8.1
+- node v20.0.0
+- npm v9.6.4
 
 <br>
 
@@ -68,7 +68,7 @@ npm run dev
 ## License
 MIT
 
-Copyright (c) 2023 MapLibre User Group Japan
+Copyright (c) 2023-2024 MapLibre User Group Japan
 
 <br>
 
@@ -85,10 +85,10 @@ Copyright (c) 2023 MapLibre User Group Japan
 ![README02](img/README02.png)
 
 MapLibre GL JSとAmazon Location Serviceを手軽に始める
-- [MapLibre GL JS v3.3.1](https://maplibre.org)  
+- [MapLibre GL JS v4.0.2](https://maplibre.org)  
 - [Amazon Location Service](https://aws.amazon.com/location)  
-- node v20.6.1
-- npm v9.8.1
+- node v20.0.0
+- npm v9.6.4
 
 <br>
 
@@ -151,6 +151,6 @@ npm run dev
 ## ライセンス
 MIT
 
-Copyright (c) 2023 MapLibre User Group Japan
+Copyright (c) 2023-2024 MapLibre User Group Japan
 
 <br>
