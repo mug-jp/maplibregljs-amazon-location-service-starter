@@ -1,6 +1,6 @@
 {
   "name": "maplibregljs-amazon-location-service-starter",
-  "version": "4.7.1",
+  "version": "5.15.0",
   "description": "",
   "scripts": {
     "dev": "vite",
@@ -9,12 +9,12 @@
   },
   "keywords": [],
   "author": "MapLibre User Group Japan",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.6.3",
-    "vite": "^5.4.10"
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
   },
   "dependencies": {
-    "maplibre-gl": "^4.7.1"
+    "maplibre-gl": "^5.15.0"
   }
 }
